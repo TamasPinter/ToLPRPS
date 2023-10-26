@@ -67,8 +67,8 @@ function game() {
       console.log(computerScore);
       console.log(drawScore);
       if (playerScore === 5 || computerScore === 5) {
-        endGame(playerScore, computerScore);
         alert("Game Over");
+        location.reload();
       }
     });
   });
