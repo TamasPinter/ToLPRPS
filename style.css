@@ -1,0 +1,21 @@
+* {
+  background-color: rgb(181, 128, 128);
+}
+
+.container {
+  display: block;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: navy;
+  color: whitesmoke;
+  height: 60px;
+  width: 100px;
+  border: 2px solid white;
+}
